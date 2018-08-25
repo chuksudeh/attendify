@@ -1,0 +1,81 @@
+
+html  {
+    color: #2f3542;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.header {
+    min-height: 75vh;
+    background: linear-gradient(100deg, rgba(35, 35, 51, 0.75) 10%, rgba(1,1,2,0.75) 100%), url(../img/header-bg.jpeg) center/cover ;
+}
+
+.header a {
+    color: #fff;
+}
+
+.navbar-nav a:hover {
+    background: transparent;
+    border: 1px solid #ffa502;
+    color: #ffa502;
+}
+
+.btn-primary {
+    background: #ffa502;
+    border: 1px solid #ffa502
+}
+
+.features {
+    min-height: 70vh;
+}
+
+.features-icon {
+    color: #2f3542;
+    font-size: 5rem;
+}
+
+.features a:hover {
+    background: transparent;
+    border: 1px solid #ffa502;
+    color: #ffa502;
+}
+
+.counter {
+    background: linear-gradient(100deg, rgba(35, 35, 51, 0.75) 10%, rgba(1,1,2,0.75) 100%), url(../img/counter-bg.jpeg) center/cover fixed;
+    /* #dfe4ea; */
+    min-height: 50vh;
+}
+
+.partners {
+    min-height: 50vh;
+}
+
+.subscribe {
+    min-height: 20vh;
+}
+
+.footer {
+    background: #2f3542;
+    color: #fff;
+    min-height: 30vh;
+}
+
+.foot-note {
+    min-height: 20%;
+}
+
+.social-links, .social-links a {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/* 
+main: #ffa502
+text: #fff
+main-light:
+*/
