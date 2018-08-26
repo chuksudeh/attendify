@@ -15,14 +15,28 @@ html  {
     background: linear-gradient(100deg, rgba(35, 35, 51, 0.75) 10%, rgba(1,1,2,0.75) 100%), url(../img/header-bg.jpeg) center/cover;
 }
 
-.header a, .header-event a {
+.header a, 
+.header-event a,
+.header-attendees a,
+.header-account a {
     color: #fff;
+}
+
+.header-attendees {
+    min-height: 40vh;
+    background: linear-gradient(100deg, rgba(35, 35, 51, 0.75) 10%, rgba(1,1,2,0.75) 100%), url(../img/attendees-bg.jpg) center/cover;
 }
 
 .header-event {
     min-height: 40vh;
     background: linear-gradient(100deg, rgba(35, 35, 51, 0.75) 10%, rgba(1,1,2,0.75) 100%), url(../img/event-bg.jpeg) center/cover;
 }
+
+.header-account {
+    min-height: 40vh;
+    background: linear-gradient(100deg, rgba(35, 35, 51, 0.75) 10%, rgba(1,1,2,0.75) 100%), url(../img/create-account-bg.jpeg) center/cover;
+}
+
 
 .navbar-nav a:hover {
     background: transparent;
