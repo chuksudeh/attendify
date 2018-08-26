@@ -12,11 +12,16 @@ html  {
 
 .header {
     min-height: 75vh;
-    background: linear-gradient(100deg, rgba(35, 35, 51, 0.75) 10%, rgba(1,1,2,0.75) 100%), url(../img/header-bg.jpeg) center/cover ;
+    background: linear-gradient(100deg, rgba(35, 35, 51, 0.75) 10%, rgba(1,1,2,0.75) 100%), url(../img/header-bg.jpeg) center/cover;
 }
 
-.header a {
+.header a, .header-event a {
     color: #fff;
+}
+
+.header-event {
+    min-height: 40vh;
+    background: linear-gradient(100deg, rgba(35, 35, 51, 0.75) 10%, rgba(1,1,2,0.75) 100%), url(../img/event-bg.jpeg) center/cover;
 }
 
 .navbar-nav a:hover {
@@ -30,6 +35,12 @@ html  {
     border: 1px solid #ffa502
 }
 
+.btn-primary:hover {
+    background: transparent;
+    border: 1px solid #ffa502;
+    color: #ffa502;
+}
+
 .features {
     min-height: 70vh;
 }
@@ -39,24 +50,35 @@ html  {
     font-size: 5rem;
 }
 
-.features a:hover {
+/* .features a:hover {
     background: transparent;
     border: 1px solid #ffa502;
     color: #ffa502;
-}
+} */
 
 .counter {
     background: linear-gradient(100deg, rgba(35, 35, 51, 0.75) 10%, rgba(1,1,2,0.75) 100%), url(../img/counter-bg.jpeg) center/cover fixed;
     /* #dfe4ea; */
+    color: #fff;
     min-height: 50vh;
+}
+
+.count-icon {
+    color: #ffa502;
+    border: 1px solid #ffa502;
 }
 
 .partners {
-    min-height: 50vh;
+    min-height: 40vh;
+}
+
+.partners-icon {
+    font-size: 10rem;
 }
 
 .subscribe {
-    min-height: 20vh;
+    background: #dfe4ea;
+    min-height: 25vh;
 }
 
 .footer {
@@ -65,8 +87,17 @@ html  {
     min-height: 30vh;
 }
 
+.footer a {
+    color: #fff;
+}
+
+.footer .nav-link:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .foot-note {
-    min-height: 20%;
+    min-height: 10%;
 }
 
 .social-links, .social-links a {
@@ -79,3 +110,9 @@ main: #ffa502
 text: #fff
 main-light:
 */
+
+@media (max-width: 576px) { 
+    .partners-icon {
+        font-size: 4rem;
+    }
+}
